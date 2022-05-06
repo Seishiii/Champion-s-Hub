@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Champion's Hub</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel = "icon" type = "image/png" href = "Images/logo icon.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./Images/logo.png" alt="logo">
+      <ul>
+        <li><button id="home" disabled>Home</button></li>
+        <li><button id="lol">League of Legends</button></li>
+        <li><button id="survey">Survey</button></li>
+        <li><button id="about">About Us</button></li>
+      </ul>
+    </div>
+
+    <div class="patchlist">
+      <h3>Recent Patch Notes</h3>
+      <img id="patch1" src="Images/patch_11.21.png">
+      <img id="patch2" src="Images/patch_11.22.png">
+    	<img id="patch3" src="Images/patch_11.23.png">
+    	<img id="patch4" src="Images/patch_11.24.png">
+    </div>
+
+    <!-- Hello, just to let you know that this home page have errors and warnings, and the reason for that is because of the embedded youtube videos (iframe), and
+    don't worry even though there's an error/warning, all features and things are still functional. The reason for the errors are because of the third-party
+    cookies and we are not knowledgeable enough to know how to fix the said error and warnings. That's all! Everything is still functional! -->
+
+    <div class="videos">
+      <h3>Video Contents</h3>
+      <div class="vid fade">
+        <iframe width=80% height="400px" src="https://www.youtube-nocookie.com/embed/xZVab7vuqQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="vid fade">
+        <iframe width=80% height="400px" src="https://www.youtube-nocookie.com/embed/nq6AcK86otc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="vid fade">
+        <iframe width=80% height="400px" src="https://www.youtube-nocookie.com/embed/otl8QeiCZD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="vid fade">
+        <iframe width=80% height="400px" src="https://www.youtube-nocookie.com/embed/cXj0mKghP4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="vid fade">
+        <iframe width=80% height="400px" src="https://www.youtube-nocookie.com/embed/XCfkuiRpbPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <footer class="footer">
+      <img id="logofooter" src="./Images/logow.png" alt="logo">
+      <ul class="explore">
+        <h3>Explore</h3>
+        <li><button id="homefooter" disabled>Home</button></li>
+        <li><button id="lolfooter">League of Legends</button></li>
+        <li><button id="surveyfooter">Survey</button></li>
+        <li><button id="aboutfooter">About Us</button></li>
+      </ul>
+
+      <ul class="visit">
+        <h3>Contact</h3>
+        <li>
+          <img src="./Images/fb.png" alt="Facebook Logo">
+          <a href="https://www.facebook.com/retarded.knuckles.3" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <img src="./Images/teams.png" alt="MS Teams Logo">
+          <a>ogawa.224090@laspinas.sti.edu.ph</a>
+        </li>
+      </ul>
+
+      <ul class="legal">
+        <h3>Legal</h3>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Privacy</a></li>
+      </ul>
+      <p id="copyright">Copyright © 2021, Champion's Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript" src="Home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+/* design */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Brawler&family=Merriweather:ital,wght@1,300&display=swap');
+
+body{
+	background-color: black;
+  background-image: url('Images/background_1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+h3{
+  font-family: 'Alegreya SC', serif;
+	color: #ededed;
+}
+h4,p, li{
+  font-family: 'Merriweather', serif;
+	color: #ededed;
+}
+/* navigation bar */
+.navbar{
+  background: #808080;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 4;
+}
+.navbar img{
+  width: 23%;
+  height: 100%;
+}
+.navbar ul{
+  list-style: none;
+  float: right;
+  display: inline-block;
+}
+.navbar ul li{
+  display: inline;
+  margin-right: 34px;
+}
+.navbar ul li button{
+  position: relative;
+  background-color: #808080;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid;
+	border-color: transparent;
+	transition: 0.8s ease;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Brawler', serif;
+}
+.navbar #lol{
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+.navbar button:not(#lol):hover{
+  background-color: black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  color: white;
+}
+/* What is League */
+.league{
+  margin: auto;
+  position: relative;top: 100px;
+  width: 80%;
+  height: 970px;
+  background-color: #525252;
+  border-radius: 10px;
+}
+.league h3, .league p{
+  margin: 10px 50px 10px 50px;
+  text-align: justify;
+  position: relative;top: 50px;
+}
+.league h3{
+  font-size: 24px;
+}
+
+/* Do's and Dont's */
+.do{
+  margin: auto;
+  position: relative;top: 110px;
+  width: 80%;
+  height: 500px;
+  background-color: #525252;
+  border-radius: 10px;
+}
+.do h3, .do h4, .do p, .do ol{
+  margin: 10px 50px 10px 50px;
+  text-align: justify;
+  position: relative;top: 40px;
+}
+.do h3{
+  font-size: 24px;
+}
+
+/* footer */
+.footer{
+	background-color: black;
+	color: white;
+	width: 1348px;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 150px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-bottom: inherit;
+	border-radius: 4%;
+}
+.footer #logofooter{
+  width: 23%;
+  height: 100%;
+  position: relative;bottom: 40px
+}
+.footer ul li{
+  list-style: none;
+}
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+.footer ul{
+  padding-left: 10px;
+  display: inline-block;
+}
+.footer p{
+  padding-left: 10px;
+}
+.explore{
+  position: relative;left: 200px;bottom: 18px;
+}
+.explore li button{
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+  font-family: 'Merriweather', serif;
+}
+.explore #lolfooter{
+  background-color: #444444;
+  cursor: default;
+}
+.explore button:hover{
+  background-color: #444444;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  color: white;
+}
+.visit{
+  position: relative;left: 375px; bottom: 80px;
+}
+.visit li a{
+  position: relative;bottom: 10px;
+}
+.visit li img{
+  width: 20px;
+  height: 20px;
+  position: relative;bottom: 5px;
+}
+.legal{
+  position: relative;left: 440px;bottom: 86px;
+}
+.legal li a{
+  position: relative;bottom: 14px;
+}
+#copyright{
+  text-align: center;
+}
+
+/* animation */
+.navbar{
+  animation: animate 0.5s;
+}
+@keyframes animate{
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Champion's Hub</title>
+    <link rel="stylesheet" href="Survey.css">
+    <link rel = "icon" type = "image/png" href = "Images/logo icon.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./Images/logo.png" alt="logo">
+      <ul>
+        <li><button id="home">Home</button></li>
+        <li><button id="lol">League of Legends</button></li>
+        <li><button id="survey" disabled>Survey</button></li>
+        <li><button id="about">About Us</button></li>
+      </ul>
+    </div>
+
+    <div class="survey">
+      <h4>Hello, after browsing through this website, we would ask you to answer our survey that is needed for our research. <br />
+      Please click the button below to access the link of the survey questionnaire. Thank you for your kind consideration.</h4>
+      <button id="link">Survey</button> <br /><br /><br />
+      <h4>After you clicked the button above, a button will appear below that will let you see the summary of result of the survey.</h4>
+      <button id="link2">Result</button>
+      <h4>OR you could scroll down and answer the survey questionnaire here in the webiste.</h4>
+    </div>
+
+    <div class="surveyform">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScotN-TD7OsICzYIZ6bzxL5qx2sUwY0QrJz-ng8GdkDG_TT1A/viewform?embedded=true" width="640" height="1631" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div class="feedback">
+      <h3>Feedbacks</h3>
+      <hr />
+      <h3 id="noFeedback">1 Feedbacks</h3>
+      <hr /><br />
+      <textarea type="text" id="text" placeholder="Add a feedback"></textarea>
+      <button id="subm" type="button">Submit</button>
+
+      <p class="name"><i>Creator of Champion's Hub</i></p>
+      <p class="response" id="res">Hello, I hope you guys liked the website, please do click the survey button above to answer our survey questionnaire. Thank you and I hope you
+      guys learned about League of Legends and how to improve!</p>
+      <p class="name" id="anon"><i>Anonymous</i></p>
+      <p class="response" id="resp">Hello</p>
+    </div>
+
+
+    <footer class="footer">
+      <img id="logofooter" src="./Images/logow.png" alt="logo">
+      <ul class="explore">
+        <h3>Explore</h3>
+        <li><button id="homefooter">Home</button></li>
+        <li><button id="lolfooter">League of Legends</button></li>
+        <li><button id="surveyfooter" disabled>Survey</button></li>
+        <li><button id="aboutfooter">About Us</button></li>
+      </ul>
+
+      <ul class="visit">
+        <h3>Contact</h3>
+        <li>
+          <img src="./Images/fb.png" alt="Facebook Logo">
+          <a href="https://www.facebook.com/retarded.knuckles.3" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <img src="./Images/teams.png" alt="MS Teams Logo">
+          <a>ogawa.224090@laspinas.sti.edu.ph</a>
+        </li>
+      </ul>
+
+      <ul class="legal">
+        <h3>Legal</h3>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Privacy</a></li>
+      </ul>
+      <p id="copyright">Copyright © 2021, Champion's Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Main.js"></script>
+  </body>
+</html>
